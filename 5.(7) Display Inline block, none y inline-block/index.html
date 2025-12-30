@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <style>
+        #Cabecera {
+            background-color: aquamarine;
+            border-bottom: 10px solid lightseagreen;
+            padding: 30px;
+            position: sticky;
+            top: 0px;
+            text-align: center;
+            
+        }
+
+        #menu {
+            background-color: yellow;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            font-size: 25px;
+            padding: 10px;
+        }
+
+        #imagen1{
+            display: block;
+
+        }
+        #imagen2{
+            display: none;
+
+        }
+        #url{
+            text-decoration: none;
+            display: block;
+            cursor: pointer;
+        }
+        #menu ul{margin: 0;}
+        #menu li{ display: inline-block; width: 32%; text-align: center; border: solid rgb(240, 2, 2);
+        box-sizing: border-box;}
+    </style>
+
+
+
+
+</head>
+
+<body>
+    <div id="Cabecera">
+        <h1>I.E.S Juan Bosco</h1>
+    </div>
+
+    <div id="menu">
+        <ul>
+            <li>Quienes somos</li>
+            <li>Qué hacemos</li>
+            <li>Donde estamos</li>
+            
+        </ul>
+    </div>
+
+    <h2>Quienes somos</h2>
+
+    <p>
+        <a id="url" href="https://www.iesjuanbosco.es">Visitanos</a>El actual I.E.S., JUAN BOSCO, comenzó su andadura allá por noviembre de 1.967 en un paraje aún sin urbanizar y
+        debiendo flanquear una pequeña senda para no quedar atrapados en el barro.
+
+        Un reducido grupo de profesores y personal no docente atendían a los 73 primeros alumnos y, decimos alumnos pues
+        en aquel primer curso sólo eran varones quienes recibían enseñanzas en el Centro.
+
+    </p>
+
+    <h2>Qué hacemos</h2>
+
+    <p>Las primeras especialidades en impartirse serían las de Metal y Electricidad en el Grado de Oficialía Industrial.
+
+        Era el comienzo de una carrera para servir a la sociedad de Alcázar y su comarca, en la más noble tarea de
+        instruir y formar a los adolescentes y jóvenes en el conocimiento de las destrezas y técnicas profesionales,
+        llevándoles a través del mundo de lo concreto y de la experimentación al dominio de la abstracción.
+
+        <img id="imagen1" src="libros-libros.jpg" width="500">
+    </p>
+
+    <h2>Donde estamos</h2>
+    <P>
+        ÁLCAZAR DE SAN JUAN (CIUDAD REAL)
+    <p></p>
+    <img id="imagen2" src="quijotesanjuan.jpg" width="500">
+
+    </P>
+    <p></p>
+    </ul>
+    </div>
+
+
+
+</body>
+
+</html>

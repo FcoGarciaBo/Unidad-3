@@ -1,0 +1,38 @@
+.contenedor{
+    display: flex; 
+    flex-wrap: wrap;
+    
+}
+
+
+.caja6{
+    position: relative; 
+    top: 40px; 
+    right: 40px; 
+    z-index: -1;
+}
+.caja4{
+    position: relative; 
+    bottom: 50px; 
+    right: 40px; 
+    z-index:-2
+}
+.caja2{
+    position: absolute;
+    top: 10px;
+    left: 10px;;
+}
+
+
+.cabecera{
+    position: fixed;
+    width: 100%;
+   
+}
+
+.cabecera2{
+    position: sticky;
+    top: 50px;
+    
+}
+
