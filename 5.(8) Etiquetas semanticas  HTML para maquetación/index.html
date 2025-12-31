@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= b, initial-scale=1.0">
+    <title>Etiquetas semánticas html</title>
+    <style>
+        *{margin: 0;}
+        header{
+            background-color: bisque;
+            height: 100px;
+            text-align: center;
+        }
+        nav{
+            background-color: rgb(255, 77, 77);
+             text-align: center;
+        }
+        nav li{
+            display: inline-block;
+            padding: 15px;
+           
+        }
+        nav a{
+            text-decoration: none;
+        }
+        nav a:hover{
+            color: chartreuse;
+        }
+        main{
+            background-color: lightblue;
+            height: 250px;
+        }
+        section{
+            background-color: lightseagreen;
+            width: 60%;
+            height: 100%;
+            float: left;
+        }
+        article{
+            height: 50%;
+            text-align: center;
+        }
+        aside{
+            background-color: lightyellow;
+            width: 40%;
+            height: 100%;
+            float: left;
+        }
+        footer{
+            background-color: lightgray;
+            height: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Ferreteria CR</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="">Quienes somos</a></li>
+        <li><a href="">Tiendas</a></li>
+        <li><a href="">Catálogo</a></li>
+    </ul>
+</nav>
+
+<main>
+    <section id="Novedades">
+        <article>
+            <h2>Nuevos equipo de protección</h2>
+            <p>
+                Guantes, ropa, botas de seguridad, cascos.... 
+            Todo a mitad de precio durante las fiestas navideñas.
+            </p>
+        </article>
+        <article>
+            <h2>
+                NUEVAS Sierras
+            </h2>
+            <p>
+               Estrenamos nuevas sierras del catalogo Bosch
+               con la compra de varios modelo hacemos descuento del 50%
+            </p>
+        </article>
+    </section>
+    <aside>
+        <p>Apertura de nueva tienda en Madrid. ¡Te esperamos!</p>
+    </aside>
+</main>
+
+<footer>
+    <p>Distribución CR, tu experto en herramientas y seguridad</p>
+</footer>
+    
+    
+</body>
+</html>
